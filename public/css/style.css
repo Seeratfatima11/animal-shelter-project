@@ -1,0 +1,1389 @@
+.bg-img{
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('/images/login-bg.jpg');
+    background-size: cover;        /* FULL SCREEN */
+    background-position: center;   /* CENTER */
+    background-repeat: no-repeat;  /* NO REPEAT */
+    overflow: hidden; 
+    min-height: 100vh;
+    height: auto;
+}
+.login-card{
+    background-color: #FFFFFFC2;
+    border-radius: 10px;
+    padding: 52px 45px 24px 45px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 100%;
+    max-width: 120px;
+}
+.login-card h6{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    color: #00000080;
+    margin-bottom: 16px;
+}
+.login-card h4{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 43px;
+}
+.my-inputs{
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 20px 0 20px 20px;
+    background: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 25px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    color: #00000080;
+}
+.my-inputs:focus{
+    border-color: #000000;
+    background: none;
+    box-shadow: none;
+}
+.forgot-password{
+    color: #0F6EFE;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    margin-bottom: 29px;
+}
+.logins-btn{
+    background-color: #FF5959;
+    padding: 19px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 29px;
+}
+.signin{
+    border: 1px solid #00000080;
+    background: none;
+    padding: 19px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    color: #00000080;
+    margin-bottom: 29px;
+}
+.signin a{
+    color: #00000080;
+    text-decoration: none;
+}
+.end-line{
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 97%;
+    color: #000000;
+}
+.end-line a{
+    color: #0F6EFE;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 97%;
+    letter-spacing: 0%;
+}
+
+
+/*=============================
+         Navbar CSS
+===============================*/
+.this-navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+.nav-logo img{
+    width: 100%;
+    max-width: 100px;
+}
+.that-items{
+    margin-right: 10px;
+}
+.main-links .that-items a{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000 !important;
+}
+.log-btn{
+    background-color: #FF5959;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.log-btn a{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.log-btn a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*=============================
+         Footer CSS
+===============================*/
+.custom-footer{
+    background-color: #1A0E38;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 51px;
+}
+.text-footer{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.head-link{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.list-unstyled li{
+    margin-bottom: 20px;
+}
+.list-unstyled li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 98%;
+    letter-spacing: 0%;
+}
+.foot-end{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+/*=============================
+Homepage Hero Section Css
+==============================*/
+.hero-section{
+    background-color: #FFEBED;
+    padding: 100px 50px;
+    margin-bottom: 62px;
+}
+.this-title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 98%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.sub-head{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 98%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.hero-image{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 424px;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+}
+.browse-btn{
+    background-color: #FF5959;
+    padding: 17px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.border-btn{
+    color: #FF5959;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 98%;
+    border: 2px solid #FF5959;
+    background-color: #FFFFFF;
+}
+
+/* Pets Section */
+.pets-sections h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px !important;
+}
+.pet-subhead{
+    font-family: Inter !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 100% !important;
+    letter-spacing: 0% !important;
+    color: #000000 !important;
+    margin-bottom: 50px !important;
+}
+.pet-card{
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.pet-card:hover{
+    transform: translateY(-5px);
+}
+
+/* Image */
+.card-img img{
+    width: 100%;
+    height: 396px;
+    object-fit: cover;
+}
+
+/* Body */
+.card-body{
+    padding: 15px;
+}
+
+/* Name */
+.pet-name{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/* Age */
+.pet-age{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/* Breed */
+.pet-breed{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px !important;
+}
+
+/* Tags */
+.pet-tags{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.pet-tags span{
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    padding: 7px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/* Description */
+.pet-desc{
+    font-family: Inter !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 100% !important;
+    letter-spacing: 0%;
+    color: #000000 !important;
+    margin-bottom: 16px !important;
+}
+
+/* Button */
+.learn-btn{
+    display: block;
+    background-color: #FF5959;
+    border-radius: 30px;
+    padding: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.learn-btn:hover{
+    background: #e14b4b;
+}
+.viw-all{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* volunteer section */
+.volunteer-section h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px !important;
+}
+.volunteer-subhead{
+    font-family: Inter !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 100% !important;
+    letter-spacing: 0% !important;
+    color: #000000 !important;
+    margin-bottom: 60px !important;
+}
+.volunteer-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.volunteer-content p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.apply-btn{
+    display: inline-block;
+    border: 2px solid #FF5959;
+    padding: 10px 35px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #FF5959;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/*=====================================
+         Adoption Page CSS
+=======================================*/
+.adopt-section{
+    background-color: #FFEBED;
+    padding: 50px;
+    margin-bottom: 62px;
+}
+/* Filter Section Css */
+.filter-box{
+    padding: 40px 0;
+}
+.this-fliter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.this-fliter i{
+    font-size: 30px;
+    color: #000000;
+}
+.this-fliter h5{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 0px;
+}
+/* Labels */
+.filter-label{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+/* Button */
+.filter-btn{
+    background-color: #EDEDED;
+    border-radius: 7px;
+    padding: 8px 16px;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #000000;
+    transition: 0.3s;
+}
+
+/* Active */
+.filter-btn.active{
+    background: #ff5c5c;
+    color: #fff;
+}
+
+/* Hover */
+.filter-btn:hover{
+    background: #ff5c5c;
+    color: #fff;
+}
+/* Card */
+.filter-card{
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
+}
+
+/* Icon */
+.filter-icon{
+    font-size: 18px;
+}
+/* Buttons container */
+.filter-options{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.pet-amount{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*==========================
+Pets Informations Page CSS
+============================*/
+.back-arrow{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 98%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 50px !important;
+    display: inline-block;
+}
+.pet-image img{
+    width: 100%;
+    max-height: 711px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.pet-info-card{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.pet-info-card h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.pet-info-card p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.icon-box i{
+    color: #FF5959;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.top-txt{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px !important;
+    display: inline-block;
+}
+.end-txt{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.dog-title{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.dog-detail{
+    font-family: Inter !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    line-height: 120% !important;
+    letter-spacing: 0% !important;
+    color: #000000 !important;
+    margin-bottom: 20px !important;
+}
+.personality-section h5{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.tag-item{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+.good-with-section h5{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.good-list span{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.good-icon{
+    color: #ff5c5c;
+    font-size: 16px;
+}
+.adopt-btn{
+    background-color: #FF5959;
+    border-radius: 30px;
+    padding: 17px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.ques-btn{
+    border:2px solid #FF5959;
+    border-radius: 30px;
+    padding: 17px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FF5959;
+    text-decoration: none;
+}
+.more-pets h4{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 30px
+}
+.pet-mini-card{
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+/* Hover (optional subtle lift) */
+.pet-mini-card:hover{
+    transform: translateY(-4px);
+}
+
+/* Image */
+.pet-mini-card img{
+    width: 100%;
+    height: 366px;
+    object-fit: cover;
+}
+
+/* Bottom content */
+.pet-mini-body{
+    padding: 12px;
+}
+.pet-mini-body h6{
+    font-family: Inria Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 13px;
+}
+.pet-mini-body small{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*=====================================
+           Volunteer Page CSS   
+=======================================*/
+.volunteer-info-card{
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.25);
+}
+
+.logo-title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.section-title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.info-block{
+    margin-bottom: 20px;
+}
+
+.info-block h6{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.info-block p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.custom-divider{
+    border: none;
+    height: 2px;
+    background-color: #000000 !important;
+    margin: 20px 0;
+}
+.require-title{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.requirements-list{
+    padding-left: 18px;
+}
+
+.requirements-list li{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.volunteer-form-card{
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.25);
+}
+
+.form-title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.volunteer-form-card p{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+.my-labels{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.my-input{
+    background-color: #D9D9D980;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+.my-input:focus{
+    background-color: #D9D9D980;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    box-shadow: none;
+}
+.checkbox-group{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.custom-check-group{
+    display: flex;
+    gap: 30px;
+}
+
+.custom-check-group{
+    display: flex;
+    gap: 30px;
+}
+
+.custom-check input{
+    display: none;
+}
+
+.custom-check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Box */
+.check-box{
+    width: 22px;
+    height: 22px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Checked background */
+.custom-check input:checked + .check-box{
+    background: #FF5959;
+    border-color: #FF5959;
+}
+
+/* PERFECT CENTER TICK */
+.custom-check input:checked + .check-box::after{
+    content: "";
+    position: absolute;
+
+    width: 6px;
+    height: 12px;
+
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -60%) rotate(45deg);
+}
+.submit-btn{
+    background-color: #FF5959;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+/*==============================
+    SUCCESS STORIES PAGE CSS
+================================*/
+/* STATS */
+.stats-box{
+    background: linear-gradient(to right, #FF4848, #FF7F1C);
+    border-radius: 12px;
+    padding: 50px;
+    color: #fff;
+    
+}
+
+.stats-box h5{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.stats-box p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+/* CARD WRAPPER */
+.story-card-wrapper{
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+.story-img{
+    width: 100%;
+    height: 356px;
+    object-fit: cover;
+}
+
+/* CONTENT */
+.story-content{
+    padding: 35px 25px;
+}
+
+/* TITLE */
+.story-content h4{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.story-content p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+/* META TEXT */
+.meta{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #606060;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* BUTTON */
+.read-btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 18px;
+    border: 2px solid #FF5959;
+    border-radius: 25px;
+    color: #FF5959;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.read-btn:hover{
+    background: #FF5959;
+    color: #fff;
+}
+
+/*==================================
+        DONATION PAGE CSS
+====================================*/
+/* ================= IMPACT CARD ================= */
+.impact-card{
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000040;
+}
+.impact-item{
+    position: relative;
+    padding-left: 15px; /* space for line */
+    margin-bottom: 40px !important;
+}
+
+/* ORANGE LINE */
+.impact-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 4px;
+    height: 100%;
+    background: #FF5959; /* orange color */
+}
+
+.impact-item h6{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.impact-item p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.impact-note{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.impact-note span{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+/* ================= FORM ================= */
+.donation-form-card{
+    padding: 0px 0px 0px 40px;
+}
+
+.form-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-subtitle{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* ================= AMOUNT ================= */
+.amount-options{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.amount-btn{
+    border: 1px solid #000000;
+    padding: 15px 62px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.amount-btn:hover{
+    border: 2px solid #FF4848;
+    background: #FFEBEB;
+    color: #FF5959;
+}
+
+/* Custom input */
+.custom-amount{
+    border: 2px solid #FF4848;
+    background: #FFEBEB;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FF5959;
+    padding: 15px;
+}
+.custom-amount::placeholder{
+    color: #FF5959;
+}
+.custom-amount:focus{
+    border: 2px solid #FF4848;
+    background: #FFEBEB;
+    box-shadow: none;
+    color: #FF5959;
+}
+
+/* ================= FORM GROUP ================= */
+.form-group{
+    margin-bottom: 15px;
+}
+
+.donation-label{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.enter-input{
+    border: 1px solid #000000;
+    padding: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.enter-input:focus{
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+/* ================= TOTAL ================= */
+.total-box span{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.total-box strong{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/* ================= BUTTON ================= */
+.donate-btn{
+    background: #FF4848;
+    color: #fff;
+    border-radius: 5px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Wrapper */
+.input-with-icon{
+    position: relative;
+}
+
+/* Icon */
+.input-with-icon i{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #333;
+}
+
+/* Input */
+.input-with-icon input{
+    padding-left: 40px; /* space for icon */
+}
+/* Chrome, Safari */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number]{
+    -moz-appearance: textfield;
+}
+.sec-card{
+    border: 1px solid #FF2E2E;
+    box-shadow: none;
+    border-radius: 20px;
+}
+
+/* Wrapper */
+.custom-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Hide default */
+.custom-checkbox input{
+    display: none;
+}
+
+/* Box */
+.checkmark{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+}
+
+/* Checked */
+.custom-checkbox input:checked + .checkmark{
+    background: #FF5959;
+    border-color: #FF5959;
+}
+
+/* Tick */
+.custom-checkbox input:checked + .checkmark::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -60%) rotate(45deg);
+}
+
+/* Text */
+.checkbox-text{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*=================================
+        MEDIA QUERIES
+===================================*/
+/* Extra Small (phones) */
+@media (max-width: 575px) {
+    .nav-logo{
+        margin-left: 0px !important;
+    }
+    .this-title{
+        font-size: 30px
+    }
+ }
+
+/* Small devices (phones landscape) */
+@media (min-width: 576px) { }
+
+/* Tablets */
+@media (min-width: 768px) { }
+
+/* Small laptops */
+@media (min-width: 992px) { }
+
+/* Desktops */
+@media (min-width: 1200px) { }
+
+/* Large screens */
+@media (min-width: 1400px) { }
