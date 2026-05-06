@@ -129,7 +129,7 @@
 
                     <!-- BUTTONS -->
                     <div class="d-grid gap-2">
-                        <a href="#" class="adopt-btn">Apply to Adopt Mex</a>
+                        <a href="{{ route('adoption.form') }}" class="adopt-btn">Apply to Adopte Mex</a>
                         <a href="#" class="ques-btn">Ask a Question</a>
                     </div>
 

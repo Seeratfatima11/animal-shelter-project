@@ -89,7 +89,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -160,7 +160,7 @@
                        A loyal dog doesn’t just walk beside you, he fills your life with unconditional love, endless happiness, and memories that last forever.
                     </p>
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -201,7 +201,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -237,7 +237,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -272,7 +272,7 @@
                        A cat doesn’t ask for much, just a little love, a warm place <br> to rest, and in return it fills your life with peace, charm, <br> and endless companionship.
                     </p>
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -312,7 +312,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -348,7 +348,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>

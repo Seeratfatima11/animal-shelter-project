@@ -20,7 +20,7 @@ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
 }
 .logo img{
     width: 100%;
-    max-width: 120px;
+    max-width: 200px;
 }
 .login-card h6{
     font-family: Inter;
@@ -37,7 +37,7 @@ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     line-height: 97%;
     letter-spacing: 0%;
     color: #000000;
-    margin-bottom: 43px;
+    margin-bottom: 20px;
 }
 .my-inputs{
     border-radius: 10px;
@@ -69,6 +69,7 @@ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
 .logins-btn{
     background-color: #FF5959;
     padding: 19px 0;
+    border: none;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -136,7 +137,7 @@ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
 }
 .nav-logo img{
     width: 100%;
-    max-width: 100px;
+    max-width: 130px;
 }
 .that-items{
     margin-right: 10px;
@@ -311,7 +312,7 @@ Homepage Hero Section Css
 /* Image */
 .card-img img{
     width: 100%;
-    height: 396px;
+    height: 273px !important;
     object-fit: cover;
 }
 
@@ -398,6 +399,75 @@ Homepage Hero Section Css
     text-decoration: none;
     text-align: center;
 }
+
+/*=============================
+   About Page Specific Styles
+===============================*/
+.about-hero{
+    background-color: #FFF4F5;
+    padding: 90px 50px;
+    margin-bottom: 40px;
+}
+.mission-section h2, .team-section h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.value-card{
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.value-card h4{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.stats-section h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
+}
+.stats-section p{
+    margin-top: 6px;
+    font-size: 16px;
+}
+.team-card{
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+.team-card h5{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.team-card p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.cta-section{ 
+    color: #fff;
+}
+.cta-section .browse-btn{
+    background-color: #fff;
+    color: #FF5959;
+    margin-right: 12px;
+}
+.cta-section .border-btn{
+    border-color: #fff;
+    color: #fff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767px){
+    .hero-image{ display:block; height:auto; text-align:center; }
+    .hero-image img{ max-width: 100%; border-radius: 16px; }
+    .this-title{ font-size: 36px; }
+    .hero-section, .about-hero{ padding: 50px 20px; }
+    .pet-card .card-img img{ height: 260px; }
+}
+
 
 .learn-btn:hover{
     background: #e14b4b;
@@ -1387,3 +1457,393 @@ input[type=number]{
 
 /* Large screens */
 @media (min-width: 1400px) { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HERO SECTION */
+.pet-hero-section{
+    background: linear-gradient(135deg, #FF4848, #FF7F1C);
+    padding: 80px 20px 100px;
+    position: relative;
+    color: #fff;
+}
+
+/* BADGE */
+.hero-badge{
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.2);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* TITLE */
+.hero-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* SUBTITLE */
+.hero-subtitle{
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+/* TABS WRAPPER */
+.hero-tabs{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* TAB BOX */
+.tab-wrapper{
+    background: #fff;
+    padding: 8px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* TAB BUTTON */
+.tab-btn{
+    border: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ACTIVE TAB */
+.tab-btn.active{
+    background: linear-gradient(135deg, #FF4848, #FF7F1C);
+    color: #fff;
+}
+
+
+/* CARD */
+.featured-card{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* IMAGE */
+.featured-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* OVERLAY */
+.featured-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 30px;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.1)
+    );
+
+    color: #fff;
+}
+
+/* TEXT */
+.featured-overlay h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.featured-overlay p{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+/* CARD */
+.pet-card{
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    height: 100%;
+}
+
+/* IMAGE */
+.card-img img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* ICON CARD */
+.grooming-icon{
+    font-size: 40px;
+    color: #FF5959;
+}
+
+/* BODY */
+.pet-card .card-body{
+    padding: 20px;
+}
+
+.pet-card h5{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* LIST */
+.pet-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pet-list li{
+    font-size: 14px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 22px;
+}
+
+/* CHECK ICON */
+.pet-list li::before{
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #bbb;
+    font-size: 12px;
+}
+
+/* HIGHLIGHT TEXT */
+.pet-list li span{
+    color: #FF5959;
+    font-weight: 600;
+}
+
+/* MUTED */
+.muted{
+    color: #aaa;
+}
+
+
+/* REUSE SAME pet-card from previous section */
+
+/* TRAINING ICON */
+.training-icon{
+    font-size: 40px;
+    color: #999;
+}
+
+/* HIGHLIGHT CARD */
+.highlight-card{
+    height: 100%;
+    border-radius: 15px;
+    padding: 25px;
+    background: linear-gradient(135deg, #FF4848, #FF7F1C);
+    color: #fff;
+}
+
+/* LOGO */
+.logo-text{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* TITLE */
+.highlight-title{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* LIST */
+.highlight-list{
+    list-style: none;
+    padding: 0;
+}
+
+.highlight-list li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+    padding-left: 22px;
+}
+
+/* CHECK ICON */
+.highlight-list li::before{
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* HIGHLIGHT TEXT */
+.highlight-list span{
+    color: #ffe0e0;
+}
+
+/* OUTER BOX */
+.tips-wrapper{
+    background: #f6dede;
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+/* HEADER */
+.tips-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tips-header h4{
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ICON */
+.tips-icon{
+    font-size: 20px;
+}
+
+/* CARD */
+.tip-card{
+    background: #fff;
+    padding: 18px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    height: 100%;
+}
+
+/* TITLE */
+.tip-card h6{
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* TEXT */
+.tip-card p{
+    font-size: 13px;
+    color: #555;
+    margin: 0;
+}
+
+/* COLORED DOT */
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.green{ background: #7bc47f; }
+.blue{ background: #3a5ba0; }
+.pink{ background: #e7a5a5; }
+.brown{ background: #9c6b3f; }
+
+
+
+/* CTA BOX */
+.cta-box{
+    background: linear-gradient(135deg, #FF4848, #FF7F1C);
+    border-radius: 20px;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+/* LOGO */
+.cta-logo{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* TITLE */
+.cta-title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.cta-subtitle{
+    font-size: 14px;
+    max-width: 600px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+/* BUTTONS */
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* BUTTON STYLE */
+.cta-btn{
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.cta-btn-outline{
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+

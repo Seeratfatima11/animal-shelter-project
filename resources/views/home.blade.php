@@ -8,9 +8,11 @@
         <div class="row align-items-center">
         <div class="col-md-6">
             <h1 class="this-title">Find Your Perfect <br> Companion</h1>
-            <p class="sub-head">Every animal deserves a loving home. Browse our adoptable pets and give them a second chance at happiness.</p>
-            <a href="#" class="browse-btn">Browse Pets</a>
-            <a href="#" class="border-btn">Contact Us</a>
+            <p class="sub-head">Behind every innocent animal’s eyes, there is a story of pain, being left alone, and quiet hope. These animals don’t need much—only a little love, care, and a safe place to live. In our shelter, we help them get a new chance to trust humans again, heal from their past pain, and feel loved. You can be the reason their life changes, because even a small act of kindness can save their life. Every animal deserves a loving home. Browse our adoptable pets and give them a second chance at happiness.</p>
+           <div class="fix btns d-flex gap-3 mb-2">
+                <a href="{{ route('adopt') }}" class="browse-btn">Browse Pets</a>
+                <a href="{{ route('stories') }}" class="border-btn">Success Stories</a>
+           </div>
         </div>
         <div class="col-md-6 hero-image">
             <img src="{{ asset('images/hero-img.jpg') }}" alt="Hero Image" class="img-fluid">
@@ -58,7 +60,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -94,7 +96,7 @@
                     </p>
 
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
@@ -129,14 +131,14 @@
                        A loyal dog doesn’t just walk beside you, he fills your life with unconditional love, endless happiness, and memories that last forever.
                     </p>
                     <!-- Button -->
-                    <a href="#" class="learn-btn">Learn more</a>
+                    <a href="{{ route('pet.detail') }}" class="learn-btn">Learn more</a>
 
                 </div>
             </div>
             </div>
             {{-- card 3 end --}}
         </div>
-        <a href="#" class="viw-all">View All Available Pets</a>
+        <a href="{{ route('adopt') }}" class="viw-all">View All Available Pets</a>
     </div>
 </section>
 
@@ -165,7 +167,7 @@
                     <p>
                        It is the quiet strength of people who choose kindness, <br> who step forward when someone needs help, and who <br> believe that even the smallest act of care can make a big <br> difference. A volunteer’s heart is filled with compassion, <br> and their actions plant seeds of hope, unity, and humanity <br> wherever they go. In every smile they create and every <br> hand they hold, they remind the world that true change <br> begins with selfless love.
                     </p>
-                    <a href="#" class="apply-btn">Apply</a>
+                    <a href="{{ route('volunteer') }}" class="apply-btn">Apply</a>
                 </div>
             </div>
         </div>
