@@ -20,29 +20,68 @@
                     </div>
                     <h4>Welcome Back</h4>
                     <h6>Please enter your details here</h6>
+
+                    {{-- ✅ Success Message --}}
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    {{-- ✅ Login Failed / General Error Message --}}
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+
                     <div class="row">
                         <div class="col-12">
-                            <div class="mb-3">
-                               <input type="email" class="form-control my-inputs" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
-                            </div>
-                            <div class="mb-3">
-                               <input type="password" class="form-control my-inputs" id="exampleInputPassword1" aria-describedby="passwordHelp" placeholder="Password">
-                            </div>
-                                 <a href="#" class="forgot-password d-flex justify-content-end">Forgot password?</a>
-                            <div class="d-grid">
-                                <a href="#" class="logins-btn">Login</a>
-                            </div>
-                             <div class="signin gap-2">
-                                <img src="{{ asset('images/google.svg') }}" alt="google">
-                                <a href="#">Sign in with google</a>
-                            </div>
-                            <h5 class="end-line">Don't have an account? <a href="#">Sign up</a></h5>
+                            <form method="POST" action="{{ route('login') }}">
+                                @csrf
+
+                                {{-- Email --}}
+                                <div class="mb-3">
+                                    <input type="email" name="email" id="exampleInputEmail1"
+                                        class="form-control my-inputs @error('email') is-invalid @enderror"
+                                        aria-describedby="emailHelp"
+                                        placeholder="Enter your email"
+                                        value="{{ old('email') }}" required>
+                                    @error('email')
+                                        <small class="text-danger">{{ $message }}</small>
+                                    @enderror
+                                </div>
+
+                                {{-- Password --}}
+                                <div class="mb-3">
+                                    <input type="password" name="password" id="exampleInputPassword1"
+                                        class="form-control my-inputs @error('password') is-invalid @enderror"
+                                        aria-describedby="passwordHelp"
+                                        placeholder="Password" required>
+                                    @error('password')
+                                        <small class="text-danger">{{ $message }}</small>
+                                    @enderror
+                                </div>
+
+                                <a href="#" class="forgot-password d-flex justify-content-end">Forgot password?</a>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="logins-btn">Login</button>
+                                </div>
+
+                                <div class="signin gap-2">
+                                    <img src="{{ asset('images/google.svg') }}" alt="google">
+                                    <a href="#">Sign in with google</a>
+                                </div>
+
+                                <h5 class="end-line">Don't have an account? <a href="{{ route('register') }}">Sign up</a></h5>
+                            </form>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </div>      
+        </div>
     </div>
 </div>
 

@@ -1,93 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Admin Dashboard</title>
+@extends('admin.main')
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+@section('title', 'Dashboard')
 
-    <style>
-        body {
-            background-color: #f4f6f9;
-        }
-        .sidebar {
-            height: 100vh;
-            background: #343a40;
-            color: white;
-            padding: 20px;
-        }
-        .sidebar a {
-            color: white;
-            display: block;
-            margin: 10px 0;
-            text-decoration: none;
-        }
-        .card {
-            border: none;
-            border-radius: 12px;
-        }
-    </style>
-</head>
+@section('content')
 
-<body>
 
-<div class="container-fluid">
-    <div class="row">
-
-        <!-- Sidebar -->
-        <div class="col-md-2 sidebar">
-            <h4>Admin</h4>
-            <a href="#">Dashboard</a>
-            <a href="/admin/users">Users</a>
-            <a href="/admin/resorts">Resorts</a>
-            <a href="/admin/bookings">Bookings</a>
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                    class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
         </div>
 
-        <!-- Main Content -->
-        <div class="col-md-10 p-4">
+        <!-- Content Row -->
+        <div class="row">
 
-            <h3 class="mb-4">Dashboard</h3>
-
-            <div class="row">
-
-                <!-- Card 1 -->
-                <div class="col-md-3">
-                    <div class="card bg-primary text-white p-3">
-                        <h5>Total Users</h5>
-                        <h3>{{ $users ?? 120 }}</h3>
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                    Earnings (Monthly)</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="col-md-3">
-                    <div class="card bg-success text-white p-3">
-                        <h5>Total Resorts</h5>
-                        <h3>{{ $resorts ?? 45 }}</h3>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="col-md-3">
-                    <div class="card bg-danger text-white p-3">
-                        <h5>Bookings</h5>
-                        <h3>{{ $bookings ?? 78 }}</h3>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="col-md-3">
-                    <div class="card bg-warning text-white p-3">
-                        <h5>Revenue</h5>
-                        <h3>$500</h3>
-                    </div>
-                </div>
-
             </div>
 
-        </div>
-    </div>
-</div>
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                    Earnings (Annual)</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-</body>
-</html>
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                </div>
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="progress progress-sm mr-2">
+                                            <div class="progress-bar bg-info" role="progressbar"
+                                                 style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pending Requests Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-warning shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                    Pending Requests</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-comments fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+@endsection

@@ -22,10 +22,23 @@
                         <img src="{{ asset('images/animal.png') }}" alt="Logo">
                     </div>
 
-                    
                     <h4>Create Account</h4>
                     <h6>Please enter your details here</h6>
-                    
+
+                    {{-- ✅ Success Message --}}
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    {{-- ✅ General Error Message (optional, for non-field errors) --}}
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+
                     <div class="row">
                         <div class="col-12">
 
@@ -33,30 +46,59 @@
                             <form method="POST" action="{{ route('register') }}">
                                 @csrf
 
+                                {{-- Name --}}
                                 <div class="mb-3">
-                                    <input type="text" name="name" class="form-control my-inputs" placeholder="Enter your name" required>
+                                    <input type="text" name="name"
+                                        class="form-control my-inputs @error('name') is-invalid @enderror"
+                                        placeholder="Enter your name"
+                                        value="{{ old('name') }}" required>
+                                    @error('name')
+                                        <small class="text-danger">{{ $message }}</small>
+                                    @enderror
                                 </div>
 
+                                {{-- Email --}}
                                 <div class="mb-3">
-                                    <input type="email" name="email" class="form-control my-inputs" placeholder="Enter your email" required>
+                                    <input type="email" name="email"
+                                        class="form-control my-inputs @error('email') is-invalid @enderror"
+                                        placeholder="Enter your email"
+                                        value="{{ old('email') }}" required>
+                                    @error('email')
+                                        <small class="text-danger">{{ $message }}</small>
+                                    @enderror
                                 </div>
 
+                                {{-- Phone --}}
                                 <div class="mb-3">
-                                    <input type="tel" name="phone" class="form-control my-inputs" placeholder="Enter your phone number"
+                                    <input type="tel" name="phone"
+                                        class="form-control my-inputs @error('phone') is-invalid @enderror"
+                                        placeholder="Enter your phone number"
                                         inputmode="numeric" maxlength="11"
+                                        value="{{ old('phone') }}"
                                         oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+                                    @error('phone')
+                                        <small class="text-danger">{{ $message }}</small>
+                                    @enderror
                                 </div>
 
+                                {{-- Password --}}
                                 <div class="mb-3">
-                                    <input type="password" name="password" class="form-control my-inputs" placeholder="Enter your Password" required>
+                                    <input type="password" name="password"
+                                        class="form-control my-inputs @error('password') is-invalid @enderror"
+                                        placeholder="Enter your Password" required>
+                                    @error('password')
+                                        <small class="text-danger">{{ $message }}</small>
+                                    @enderror
                                 </div>
 
+                                {{-- Confirm Password --}}
                                 <div class="mb-3">
-                                    <input type="password" name="password_confirmation" class="form-control my-inputs" placeholder="Confirm Password" required>
+                                    <input type="password" name="password_confirmation"
+                                        class="form-control my-inputs"
+                                        placeholder="Confirm Password" required>
                                 </div>
 
                                 <div class="d-grid">
-                                    <!-- ✅ FIXED BUTTON -->
                                     <button type="submit" class="logins-btn">Register</button>
                                 </div>
 
@@ -79,7 +121,7 @@
                 </div>
 
             </div>
-        </div>      
+        </div>
     </div>
 </div>
 
