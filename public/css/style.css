@@ -409,10 +409,12 @@ Homepage Hero Section Css
     margin-bottom: 40px;
 }
 .mission-section h2, .team-section h2{
+    font-family: Inter !important;
     font-family: Inter;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 20px;
+    color: #000000;
 }
 .value-card{
     background: #FFFFFF;
@@ -427,11 +429,15 @@ Homepage Hero Section Css
     font-family: Inter;
     font-weight: 700;
     font-size: 34px;
-    color: #000;
+    color: #FFFFFF;
+}
+.stats-section{
+    background: linear-gradient(135deg, #FF4848, #FF7F1C);
 }
 .stats-section p{
     margin-top: 6px;
     font-size: 16px;
+    color: #FFFFFF;
 }
 .team-card{
     background: #FFFFFF;
@@ -1498,6 +1504,7 @@ input[type=number]{
 
 /* BADGE */
 .hero-badge{
+    border: 1px solid #FFFFFF;
     display: inline-block;
     padding: 8px 18px;
     border-radius: 30px;
@@ -1515,7 +1522,7 @@ input[type=number]{
 
 /* SUBTITLE */
 .hero-subtitle{
-    font-size: 18px;
+    font-size: 21px;
     max-width: 700px;
     margin: auto;
     opacity: 0.9;
@@ -1525,7 +1532,7 @@ input[type=number]{
 .hero-tabs{
     position: absolute;
     bottom: -25px;
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
 }
 
@@ -1576,15 +1583,7 @@ input[type=number]{
     bottom: 0;
     left: 0;
     width: 100%;
-
     padding: 30px;
-
-    background: linear-gradient(
-        to top,
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.1)
-    );
-
     color: #fff;
 }
 
@@ -1613,7 +1612,6 @@ input[type=number]{
     border-radius: 15px;
     overflow: hidden;
     border: 1px solid #ddd;
-    height: 100%;
 }
 
 /* IMAGE */
@@ -1635,7 +1633,9 @@ input[type=number]{
 }
 
 .pet-card h5{
-    font-weight: 700;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
@@ -1649,19 +1649,11 @@ input[type=number]{
 .pet-list li{
     font-size: 14px;
     margin-bottom: 8px;
-    position: relative;
-    padding-left: 22px;
+}   
+.pet-list li i{
+    font-size: 17px;
+    color: darkgrey;
 }
-
-/* CHECK ICON */
-.pet-list li::before{
-    content: "✔";
-    position: absolute;
-    left: 0;
-    color: #bbb;
-    font-size: 12px;
-}
-
 /* HIGHLIGHT TEXT */
 .pet-list li span{
     color: #FF5959;
@@ -1699,7 +1691,9 @@ input[type=number]{
 
 /* TITLE */
 .highlight-title{
-    font-size: 18px;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
@@ -1713,18 +1707,7 @@ input[type=number]{
     margin-bottom: 10px;
     font-size: 14px;
     position: relative;
-    padding-left: 22px;
 }
-
-/* CHECK ICON */
-.highlight-list li::before{
-    content: "✔";
-    position: absolute;
-    left: 0;
-    color: #fff;
-    font-size: 12px;
-}
-
 /* HIGHLIGHT TEXT */
 .highlight-list span{
     color: #ffe0e0;
@@ -1745,7 +1728,10 @@ input[type=number]{
     gap: 10px;
     margin-bottom: 15px;
 }
-
+.tips-header i{
+    font-size: 30px;
+    color: #FF5959;
+}
 .tips-header h4{
     font-weight: 700;
     margin: 0;

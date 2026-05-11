@@ -8,7 +8,7 @@
 
         <!-- Badge -->
         <div class="hero-badge">
-            ✨ Complete Pet Care Guide
+            <i class="bi bi-magic"></i> Complete Pet Care Guide
         </div>
 
         <!-- Title -->
@@ -28,11 +28,11 @@
         <div class="tab-wrapper">
 
             <button class="tab-btn active">
-                🐶 Dog Care
+                <i class="fa-solid fa-dog"></i> Dog Care
             </button>
 
             <button class="tab-btn">
-                🐱 Cat Care
+                <i class="fa-solid fa-cat"></i> Cat Care
             </button>
 
         </div>
@@ -72,20 +72,15 @@
         <!-- CARD 1 -->
         <div class="col-12 col-md-6 col-lg-4">
             <div class="pet-card">
-
-                <div class="card-img">
-                    <img src="{{ asset('images/nutrition.jpg') }}" alt="">
-                </div>
-
                 <div class="card-body">
                     <h5>Nutrition</h5>
 
                     <ul class="pet-list">
-                        <li><span>Feed 2x daily</span> for adults, 3-4x for puppies</li>
-                        <li class="muted">High-quality protein as first ingredient</li>
-                        <li><span>Fresh water</span> always available</li>
-                        <li><span>Treats limited</span> to 10% of daily calories</li>
-                        <li><span>Portion control</span> based on weight</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Feed 2x daily</span> for adults, 3-4x for puppies</li>
+                        <li class="muted"><i class="bi bi-check-circle"></i> &nbsp; High-quality protein as first ingredient</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Fresh water</span> always available</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Treats limited</span> to 10% of daily calories</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Portion control</span> based on weight</li>
                     </ul>
                 </div>
 
@@ -96,19 +91,15 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="pet-card">
 
-                <div class="card-img">
-                    <img src="{{ asset('images/exercise.jpg') }}" alt="">
-                </div>
-
                 <div class="card-body">
                     <h5>Exercise</h5>
 
                     <ul class="pet-list">
-                        <li><span>30-60 minutes</span> of daily exercise</li>
-                        <li><span>2-3 walks</span> split throughout day</li>
-                        <li><span>Interactive play</span> for stimulation</li>
-                        <li><span>Puzzle toys</span> keep minds active</li>
-                        <li><span>Safe leash</span> in public areas</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>30-60 minutes</span> of daily exercise</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>2-3 walks</span> split throughout day</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Interactive play</span> for stimulation</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Puzzle toys</span> keep minds active</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp; <span>Safe leash</span> in public areas</li>
                     </ul>
                 </div>
 
@@ -118,20 +109,15 @@
         <!-- CARD 3 -->
         <div class="col-12 col-md-6 col-lg-4">
             <div class="pet-card">
-
-                <div class="card-img bg-light d-flex justify-content-center align-items-center">
-                    <i class="bi bi-scissors grooming-icon"></i>
-                </div>
-
                 <div class="card-body">
                     <h5>Grooming</h5>
 
                     <ul class="pet-list">
-                        <li><span>Weekly brushing</span> (more for long hair)</li>
-                        <li><span>Bath every 4-6 weeks</span></li>
-                        <li><span>Nail trim</span> every 3-4 weeks</li>
-                        <li><span>Teeth brushing</span> 2-3 times weekly</li>
-                        <li><span>Ear checks</span> weekly</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Weekly brushing</span> (more for long hair)</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Bath every 4-6 weeks</span></li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Nail trim</span> every 3-4 weeks</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Teeth brushing</span> 2-3 times weekly</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Ear checks</span> weekly</li>
                     </ul>
                 </div>
 
@@ -151,20 +137,15 @@
         <!-- HEALTH CARE -->
         <div class="col-12 col-md-6 col-lg-4">
             <div class="pet-card">
-
-                <div class="card-img">
-                    <img src="{{ asset('images/health.jpg') }}" alt="">
-                </div>
-
                 <div class="card-body">
                     <h5>Health Care</h5>
 
                     <ul class="pet-list">
-                        <li><span>Annual checkups</span> (more for puppies/seniors)</li>
-                        <li><span>Stay current</span> on vaccinations</li>
-                        <li><span>Monthly prevention</span> for fleas & ticks</li>
-                        <li><span>Spay/neuter</span> between 6-9 months</li>
-                        <li><span>Watch for</span> unusual behavior changes</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Annual checkups</span> (more for puppies/seniors)</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Stay current</span> on vaccinations</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Monthly prevention</span> for fleas & ticks</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Spay/neuter</span> between 6-9 months</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Watch for</span> unusual behavior changes</li>
                     </ul>
                 </div>
 
@@ -175,19 +156,16 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="pet-card">
 
-                <div class="card-img bg-light d-flex justify-content-center align-items-center">
-                    <i class="bi bi-book training-icon"></i>
-                </div>
 
                 <div class="card-body">
                     <h5>Training</h5>
 
                     <ul class="pet-list">
-                        <li class="muted">Basic commands: Sit, Stay, Come</li>
-                        <li><span>Positive reinforcement</span> works best</li>
-                        <li><span>Short sessions</span> (5–15 minutes)</li>
-                        <li><span>Early socialization</span> is crucial</li>
-                        <li><span>Consistency</span> with all family members</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Basic commands</span>: Sit, Stay, Come</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Positive reinforcement</span> works best</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Short sessions</span> (5–15 minutes)</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Early socialization</span> is crucial</li>
+                        <li><i class="bi bi-check-circle"></i> &nbsp;<span>Consistency</span> with all family members</li>
                     </ul>
                 </div>
 
@@ -197,16 +175,14 @@
         <!-- HIGHLIGHT CARD -->
         <div class="col-12 col-md-12 col-lg-4">
             <div class="highlight-card">
-
-                <h4 class="logo-text">LOGO</h4>
                 <h6 class="highlight-title">Love & Attention</h6>
 
                 <ul class="highlight-list">
-                    <li>Daily bonding time <span>strengthens relationships</span></li>
-                    <li>Cuddles and pets <span>reduce stress</span></li>
-                    <li>Quality time <span>over quantity</span></li>
-                    <li>Patience and understanding <span>always</span></li>
-                    <li>Unconditional love <span>goes both ways</span></li>
+                    <li><i class="bi bi-check-circle"></i> &nbsp;<span>Daily bonding time</span> <span>strengthens relationships</span></li>
+                    <li><i class="bi bi-check-circle"></i> &nbsp;<span>Cuddles and pets</span> <span>reduce stress</span></li>
+                    <li><i class="bi bi-check-circle"></i> &nbsp;<span>Quality time</span> <span>over quantity</span></li>
+                    <li><i class="bi bi-check-circle"></i> &nbsp;<span>Patience and understanding</span> <span>always</span></li>
+                    <li><i class="bi bi-check-circle"></i> &nbsp;<span>Unconditional love</span> <span>goes both ways</span></li>
                 </ul>
 
             </div>
@@ -226,7 +202,7 @@
 
         <!-- HEADER -->
         <div class="tips-header">
-            <span class="tips-icon">📌</span>
+            <i class="bi bi-magic"></i>
             <h4>Pro Tips for Dog Parents</h4>
         </div>
 
@@ -291,7 +267,7 @@
 
         <!-- HEADER -->
         <div class="tips-header">
-            <span class="tips-icon">📌</span>
+            <i class="fa-solid fa-circle-exclamation"></i>
             <h4>Emergency Care</h4>
         </div>
 

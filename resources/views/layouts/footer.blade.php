@@ -33,8 +33,14 @@
     </div>
 
     <!-- Column 4 -->
-    <div class="col-12 col-md-6 col-lg-3 text-lg-end">
+    <div class="col-12 col-md-6 col-lg-3">
         <h4 class="head-link">Contact & Hours</h4>
+        <ul class="list-unstyled pt-2 ">
+            <li class="py-1"><a href=""><i class="bi bi-envelope-fill"></i> contact@gmail.com</a></li>
+            <li class="py-1"><a href=""><i class="bi bi-geo-alt-fill"></i> A 33 suncity hiran minar road nabi pura sheikhupura</a></li>
+            <li class="py-1"><a href=""><i class="bi bi-telephone-fill"></i> +92 322 4407380</a></li>
+            <li class="py-1">Hours: Mon-Sat 9am-6pm Sunday 12pm-5pm</li>
+        </ul>
     </div>
 
 </div>

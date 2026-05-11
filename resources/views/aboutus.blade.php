@@ -53,7 +53,7 @@
 </section>
 
 <!-- IMPACT STATS -->
-<section class="stats-section py-4 bg-light mb-5">
+<section class="stats-section py-4 mb-5">
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-6 col-md-3">
